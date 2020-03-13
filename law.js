@@ -10,6 +10,6 @@ exports.newLaw = function (msg, client) {
                 deny: ['VIEW_CHANNEL'],
             }
         ],
-    }).then(console.log).catch(console.error);
+    }).then().catch(console.error);
     msg.delete();
 }
