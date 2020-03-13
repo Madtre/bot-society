@@ -18,27 +18,36 @@ The installer will ask you for : the discord bot token, your server address, you
 To run it, add your discord bot on your discord server.
 You will need a specific channel for the bot.
 Please, don't give read right to the bot for the other channel. 
+
 The minecraft permission are working with GroupManager
 
 ## Command:
 
-The law Command:
+### The law Command:
+
     $ !loi name of your law
 
-The permission command: 
-    for giving the role:
-    $ !promote discord-name Minecraft-name
-    (please, be sure to write the discord name, not the nickname)
+### The permission command: 
 
-    for removing the role:
+for giving the role:
+
+    $ !promote discord-name Minecraft-name
+
+(please, be sure to write the discord name, not the nickname)
+
+for removing the role:
+
     $ !demote discord-name Minecraft-name
 
 you can also only give the discord name if you don't want to promote the user on minecraft.
 
-The Minecraft command:
-    put the command withou the '/' before.
+### The Minecraft command:
+
+put the command withou the '/' before.
+
     $ !mc whatever you want
 
-    exmaple:
+exmaple:
+
     $ !mc help
 
