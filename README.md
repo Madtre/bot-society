@@ -31,13 +31,13 @@ The minecraft permission are working with GroupManager
 
 for giving the role:
 
-    $ !promote discord-name Minecraft-name
+    $ !promote @discord-name Minecraft-name
 
 (please, be sure to write the discord name, not the nickname)
 
 for removing the role:
 
-    $ !demote discord-name Minecraft-name
+    $ !demote @discord-name Minecraft-name
 
 you can also only give the discord name if you don't want to promote the user on minecraft.
 
