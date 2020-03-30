@@ -51,3 +51,5 @@ exmaple:
 
     $ !mc help
 
+/!\ WARNING: you can't use the commands:
+- !mc reload

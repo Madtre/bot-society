@@ -66,7 +66,11 @@ commandSend = function (command, msg, type) {
 exports.cmd = function (msg) {
     if (isAdmin(msg.member) == true) {
         command = msg.content.substring(4, msg.content.length);
-        result = commandSend(command, msg, "mc");
+        if (command.substring(0, command.length) != "reload"){
+            result = commandSend(command, msg, "mc");
+        } else {
+            msg.channel.send("!Vous ne pouvez pas faire cette commande");
+        }
     }
 }
 
