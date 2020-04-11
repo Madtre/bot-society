@@ -25,6 +25,5 @@ client.on('message', msg => {
     setTimeout(function () {
       msg.delete();
     }, 3000);
-  } else if (msg.member.id != client.user.id)
-    msg.delete();
+  }
 });
